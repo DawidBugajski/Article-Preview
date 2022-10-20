@@ -1,0 +1,43 @@
+@import '_variables'
+@import '_mixins'
+
+.user__active
+    background-color: $darkest-blue
+    position: absolute
+    +hw100
+    top: 34%
+    left: 0
+    z-index: -1
+    border-bottom-left-radius: 1rem
+    border-bottom-right-radius: 1rem
+    display: flex
+    align-items: center
+    justify-content: start
+    @media (min-width:768px)
+        +flex
+        height: 80%
+        width: 55%
+        top: -55%
+        left: 56%
+        border-radius: .8rem 
+        opacity: 0
+        &::after
+            content: ""
+            position: absolute
+            top: 100%
+            left: 50%
+            margin-left: -5px
+            border-width: 10px
+            border-style: solid
+            border-color: #48556a transparent transparent transparent 
+        & p 
+            margin: 0 !important
+    & p
+        margin: 0 0 0 1.5rem
+        text-transform: uppercase
+        letter-spacing: .3rem
+    & img
+        margin: .5rem
+    & a:hover
+        transition: .3s
+        background-color: rgba(0,0,0,0.4)
