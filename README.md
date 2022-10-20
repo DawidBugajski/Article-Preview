@@ -8,7 +8,7 @@ this is a simple component to use on the site, the project shows someone's proje
 
 # What have I learned in this project?
 
-in the case of this project, I learned how to construct an interactive element that works well with RWD and also practiced the BEM methodology and the use of SASS
+in the case of this project, I learned how to construct an interactive element that works well with RWD and also practiced the BEM methodology and the use of SASS & Bootstrap
 
 # What made me most of the problems?
 
