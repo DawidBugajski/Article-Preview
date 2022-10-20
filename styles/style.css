@@ -6,6 +6,7 @@ body {
   height: 100vh;
   width: 100vw;
 }
+
 .article {
   height: 100%;
   width: 100%;
@@ -143,20 +144,20 @@ body {
 }
 .user__btn img {
   scale: 1.5;
-  content: url(./images/icon-share.svg);
+  content: url(../images/icon-share.svg);
 }
 .user__btn:hover {
   background-color: #48556a;
 }
 .user__btn:hover img {
-  content: url(./images/icon-share-hover.svg);
+  content: url(../images/icon-share-hover.svg);
 }
 .user .active {
   background-color: #6d7f97;
 }
 .user .active img {
   scale: 1.5;
-  content: url(./images/icon-share-hover.svg);
+  content: url(../images/icon-share-hover.svg);
 }
 .user__wrapper {
   height: 70px;
