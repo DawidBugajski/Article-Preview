@@ -7,7 +7,7 @@ btn.addEventListener("click", () => {
   active();
 });
 
-// * change z-index && opacity of the element
+// change z-index && opacity of the element
 const active = () => {
   let popup = btnClassess.contains("active")
     ? (userActive.style.zIndex = "2")
